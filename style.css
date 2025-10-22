@@ -102,6 +102,14 @@ a:hover {
     font-weight: 600; 
 }
 
+.primary-nav a.active {
+  background-color: var(--color-primary);
+  color: white;
+  font-weight: bold;
+  border-radius: var(--radius-soft);
+  padding: 0.4em 0.8em;
+}
+
 /* LOGO */
 .logo img {
   height: 40px;
@@ -942,4 +950,5 @@ input[type="date"] {
   .about-section img, .about-section .text {
     width: 100%;
   }
+
 }
